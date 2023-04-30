@@ -1,5 +1,5 @@
 body{
-    background-image: url("images//download1.jpg");
+    background-image: url("download1.jpg");
     background-size: cover;
 }
     
@@ -17,7 +17,7 @@ body{
 }
 
 .popup {
-    background-image: url("images/pop.jpg");
+    background-image: url("pop.jpg");
     background-size: cover;
      position: fixed;
      margin-top: 10%;
