@@ -1,0 +1,100 @@
+body{
+    background-image: url("images//download1.jpg");
+    background-size: cover;
+}
+    
+ 
+ h1{
+     text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     color: red;
+     font-weight: larger;
+ }
+ 
+.to
+{
+    color: blue;
+}
+
+.popup {
+    background-image: url("images/pop.jpg");
+    background-size: cover;
+     position: fixed;
+     margin-top: 10%;
+     margin-left: 35%;
+     padding: 50px;
+     padding-bottom: 0px;
+     background-color: aliceblue;
+     border: 1px solid #000;
+     /*Code by pranit*/
+
+
+ }
+ 
+ .no{
+    background-color:white;
+    overflow: hidden;
+    border-radius: 10px;
+ }
+ .no a{
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 17px;
+    align-items: center;
+    color: red;
+    font-weight: bolder;
+    
+ }
+ .no :hover{
+    background-color: pink;
+ }
+ .no .active
+ {
+    background-color:pink;
+ }
+ .heading{
+    position: relative;
+    bottom: 210px;
+    right: 20px;
+    margin-top: 0px;
+ }
+.offer{
+    height: 150px;
+    width: 150px;
+}
+.offerst{
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 200%;
+    position: relative;
+    right: 60px;
+    bottom: 70px;
+    left: 0px;
+    font-weight: bolder;
+}
+.on{
+    font-family: 'Poltawski Nowy', serif;
+    position: relative;
+    bottom: 70px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.btn {
+    -webkit-border-radius: 30;
+    -moz-border-radius: 30;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    text-shadow: 2px 2px 3px #000000;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #7631c0;
+    padding: 7px 14px 7px 13px;
+    border: solid #ffffff 1px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #8148e2;
+    text-decoration: none;
+  }

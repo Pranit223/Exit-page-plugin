@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exit Pop-up</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,500&family=Oswald&family=Poltawski+Nowy:ital,wght@1,500&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="no">
+		<a class="active" href="#Home">Home</a>
+		<a href="#News">News</a>
+		<a href="#Contact">Contact</a>
+		<a href="#About">About</a>
+		<a href="#Links">Links</a>
+	</div>
+	
+	<link rel="icon" href="https://cdn.dribbble.com/userupload/3158902/file/original-7c71bfa677e61dea61bc2acd59158d32.jpg?resize=400x0">
+
+	<div class="popup" id="exit-popup">
+		<img class="offer" src="images/30.png">
+		<div class="heading">
+			<h2>Are you sure you want to leave?</h2>
+		</div>
+
+		
+		<p1 class="offerst">GET 30% off</p1>
+		<p class="on">on your first order </p>
+		<button class="btn" onclick="closePopup()">Stay Here</button>
+		<a href="">Leave</a>
+	</div>
+	<script>
+		var exitPopup = document.getElementById("exit-popup");
+		document.addEventListener("mouseleave", function(event) {
+			if (event.clientY <= 0) {
+				exitPopup.style.display = "block";
+				
+			}
+		});
+
+		function closePopup() {
+			exitPopup.style.display = "none";
+		}
+	</script>
+</body>
+</html>
